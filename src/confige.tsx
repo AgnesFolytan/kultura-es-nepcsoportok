@@ -18,6 +18,8 @@ const firebaseConfig = {
 const firebase= require('firebase');
 firebase.initializeApp(firebaseConfig);
 const db= firebase.firestore();
+const User = db.collection("Users");
+module.exports = User;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
