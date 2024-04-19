@@ -2,7 +2,7 @@
     "országok": [
         {
             "név": "Kína",
-            "nyelvek": ["Kínai (Mandarin)", "Kanton", "Szöveg"],
+            "nyelvek": ["Kínai (Mandarin)", "Kanton"],
             "földrajzi_elhelyezkedés": "Ázsia, Kelet-Ázsia",
             "hagyományok_ünnepek": [
                 {
