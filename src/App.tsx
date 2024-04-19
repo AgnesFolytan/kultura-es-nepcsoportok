@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-
+import { Layout } from './Oldalak/Layout'
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
   
@@ -8,7 +9,16 @@ function App() {
   return (
     <>
       <div>
-        <h1>Alap</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ <Layout/> }>
+            <Route index element= { "alap" } />
+            <Route path="allatok" element={ "valami" }/>
+            <Route path="programok" element={ "valami" }/>
+            <Route path="kapcsolat" element={ "valami" }/>
+          </Route>
+        </Routes>
+    </BrowserRouter>
       </div>
     </>
   )
