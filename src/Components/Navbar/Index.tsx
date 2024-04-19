@@ -14,7 +14,7 @@ export function NavBar(){
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home valami</Nav.Link>
-              <Nav.Link href="/">Még valami</Nav.Link>
+              <Nav.Link href="/">Domi látod???</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
