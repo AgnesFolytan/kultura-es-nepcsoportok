@@ -1,4 +1,3 @@
-import './Index.css';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import { Container } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
