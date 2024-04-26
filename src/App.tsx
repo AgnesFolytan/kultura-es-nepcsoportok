@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <Layout/> }>
             <Route index element= { "alap" } />
-            <Route path="allatok" element={ "valami" }/>
+            <Route path="culture" element={ "culture" }/>
             <Route path="programok" element={ "valami" }/>
             <Route path="kapcsolat" element={ "valami" }/>
           </Route>

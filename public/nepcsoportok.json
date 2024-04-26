@@ -1,0 +1,352 @@
+{
+    "országok": [
+        {
+            "név": "Kína",
+            "nyelvek": ["Kínai (Mandarin)", "Kanton"],
+            "földrajzi_elhelyezkedés": "Ázsia, Kelet-Ázsia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Kínai Újév",
+                    "leírás": "A kínai naptár alapján ünneplik"
+                },
+                {
+                    "név": "Sárkányhajó verseny",
+                    "leírás": "Hagyományos kínai vizes sportesemény"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Pekingi kacsa",
+                    "leírás": "Kínai specialitás, sült kacsa"
+                },
+                {
+                    "név": "Dim sum",
+                    "leírás": "Kínai harapnivalók kis tálban"
+                }
+            ],
+            "vallás_hitrendszer": "Taoizmus, Konfucianizmus, Buddhizmus",
+            "ruha_viselet": [
+                {
+                    "név": "Cheongsam",
+                    "leírás": "Hagyományos kínai női ruha"
+                },
+                {
+                    "név": "Mao-dzsek",
+                    "leírás": "Hagyományos kínai férfi ruha"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Kungfu",
+                    "leírás": "Kínai harcművészet"
+                },
+                {
+                    "név": "Porcelán",
+                    "leírás": "Kínában kifejlesztett finom kerámia"
+                }
+            ]
+        },
+        {
+            "név": "Japán",
+            "nyelvek": ["Japán"],
+            "földrajzi_elhelyezkedés": "Ázsia, Kelet-Ázsia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Hanami",
+                    "leírás": "Cseresznyevirágzás ünnepe"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Sushi",
+                    "leírás": "Hagyományos japán ételek"
+                }
+            ],
+            "vallás_hitrendszer": "Buddhizmus, Sintoizmus",
+            "ruha_viselet": [
+                {
+                    "név": "Kimono",
+                    "leírás": "Hagyományos japán öltözet"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Origami",
+                    "leírás": "Papírhajtogatási technika"
+                }
+            ]
+        },
+        {
+            "név": "India",
+            "nyelvek": ["Hindi", "Angol", "Bengáli", "Tamil", "Telugu", "Marathi"],
+            "földrajzi_elhelyezkedés": "Dél-Ázsia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Diwali",
+                    "leírás": "Fény ünnepe"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Curry",
+                    "leírás": "Fűszeres indiai étel"
+                }
+            ],
+            "vallás_hitrendszer": "Hinduizmus, Iszlám, Szikhizmus",
+            "ruha_viselet": [
+                {
+                    "név": "Sári",
+                    "leírás": "Hagyományos indiai női ruha"
+                },
+                {
+                    "név": "Dhoti",
+                    "leírás": "Hagyományos indiai férfi viselet"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Bharatanatyam",
+                    "leírás": "Hagyományos indiai táncforma"
+                },
+                {
+                    "név": "Ayurveda",
+                    "leírás": "Hagyományos indiai gyógyászat"
+                }
+            ]
+        },
+        {
+            "név": "Svédország",
+            "nyelvek": ["Svéd"],
+            "földrajzi_elhelyezkedés": "Észak-Európa, Skandinávia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Valborg",
+                    "leírás": "Walpurgis Night ünnepe"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Köttbullar",
+                    "leírás": "Húsgolyók svéd módra"
+                }
+            ],
+            "vallás_hitrendszer": "Kereszténység - Lutheránus egyház",
+            "ruha_viselet": [
+                {
+                    "név": "Palsmössa",
+                    "leírás": "Bunda sapka"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Viking hagyományok",
+                    "leírás": "Svéd viking kultúra és hagyományok"
+                }
+            ]
+        },
+        {
+            "név": "Norvégia",
+            "nyelvek": ["Norvég"],
+            "földrajzi_elhelyezkedés": "Észak-Európa, Skandinávia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Syttende Mai",
+                    "leírás": "Norvég Nemzeti Ünnep"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Lutefisk",
+                    "leírás": "Hagyományos norvég halétel"
+                }
+            ],
+            "vallás_hitrendszer": "Kereszténység",
+            "ruha_viselet": [
+                {
+                    "név": "Bunad",
+                    "leírás": "Norvég hagyományos viselet"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Skiing",
+                    "leírás": "Norvég síelési hagyományok"
+                }
+            ]
+        },
+        {
+            "név": "Dánia",
+            "nyelvek": ["Dán"],
+            "földrajzi_elhelyezkedés": "Észak-Európa, Skandinávia",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Grundlovsdag",
+                    "leírás": "Dán Alkotmány Ünnepe"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Smørrebrød",
+                    "leírás": "Dán hidegtál"
+                }
+            ],
+            "vallás_hitrendszer": "Kereszténység",
+            "ruha_viselet": [
+                {
+                    "név": "Dán farmer",
+                    "leírás": "Hagyományos dán viselet"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Hygge",
+                    "leírás": "Dán életmód és kényelem koncepció"
+                }
+            ]
+        },
+        {
+            "név": "Franciaország",
+            "nyelvek": ["Francia"],
+            "földrajzi_elhelyezkedés": "Nyugat-Európa",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Bastille Day",
+                    "leírás": "Francia nemzeti ünnep"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Croissant",
+                    "leírás": "Hagyományos francia péksütemény"
+                },
+                {
+                    "név": "Escargot",
+                    "leírás": "Hagymával sült csigák"
+                }
+            ],
+            "vallás_hitrendszer": "Kereszténység",
+            "ruha_viselet": [
+                {
+                    "név": "Beret",
+                    "leírás": "Francia sapka"
+                },
+                {
+                    "név": "Kabát",
+                    "leírás": "Elegáns francia kabát"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Művészet és divat",
+                    "leírás": "Francia művészet és divatvilág"
+                }
+            ]
+        },
+        {
+            "név": "Olaszország",
+            "nyelvek": ["Olasz"],
+            "földrajzi_elhelyezkedés": "Dél-Európa",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Carnevale di Venezia",
+                    "leírás": "Velencei karnevál"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Pizza",
+                    "leírás": "Olasz pizzák különböző változatai"
+                },
+                {
+                    "név": "Pasta",
+                    "leírás": "Hagyományos olasz tésztaételek"
+                }
+            ],
+            "vallás_hitrendszer": "Római katolicizmus",
+            "ruha_viselet": [
+                {
+                    "név": "Dolce Vita stílus",
+                    "leírás": "Olasz divat és életstílus"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Reneszánsz művészet",
+                    "leírás": "Olasz reneszánsz kultúra és művészet"
+                }
+            ]
+        },
+        {
+            "név": "Spanyolország",
+            "nyelvek": ["Spanyol"],
+            "földrajzi_elhelyezkedés": "Dél-Európa",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "San Fermín fesztivál",
+                    "leírás": "Pamplona bikafuttatás"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Paella",
+                    "leírás": "Spanyol rizses étel"
+                },
+                {
+                    "név": "Tapas",
+                    "leírás": "Spanyol ételkülönlegességek"
+                }
+            ],
+            "vallás_hitrendszer": "Római katolicizmus",
+            "ruha_viselet": [
+                {
+                    "név": "Flamenco ruházat",
+                    "leírás": "Spanyol flamenco táncos ruha"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Spanyol festészet",
+                    "leírás": "Spanyol művészeti hagyományok"
+                }
+            ]
+        },
+        {
+            "név": "Németország",
+            "nyelvek": ["Német"],
+            "földrajzi_elhelyezkedés": "Közép-Európa",
+            "hagyományok_ünnepek": [
+                {
+                    "név": "Oktoberfest",
+                    "leírás": "München sör- és sörcsarnok ünnep"
+                }
+            ],
+            "étel_gasztro": [
+                {
+                    "név": "Bratwurst",
+                    "leírás": "Német kolbászfélék"
+                },
+                {
+                    "név": "Sauerkraut",
+                    "leírás": "Erjesztett káposzta"
+                }
+            ],
+            "vallás_hitrendszer": "Kereszténység - Protestáns és katolikus",
+            "ruha_viselet": [
+                {
+                    "név": "Lederhosen",
+                    "leírás": "Bajor férfi hagyományos viselet"
+                },
+                {
+                    "név": "Dirndl",
+                    "leírás": "Bajor női hagyományos ruha"
+                }
+            ],
+            "kulturális_jellemzők": [
+                {
+                    "név": "Zene és fesztiválok",
+                    "leírás": "Német zenei és fesztiválhagyományok"
+                }
+            ]
+        }
+    ]
+}
