@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "CommonJS",
+    "build": "tsc && vite build&& CommonJS",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "nodemon Backand.tsx"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -28,6 +29,9 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.8.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
