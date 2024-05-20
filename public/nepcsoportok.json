@@ -1,6 +1,6 @@
 {
-    "országok": [
-        {
+    "cultures": [
+      {
             "név": "Kína",
             "nyelvek": ["Kínai (Mandarin)", "Kanton"],
             "földrajzi_elhelyezkedés": "Ázsia, Kelet-Ázsia",

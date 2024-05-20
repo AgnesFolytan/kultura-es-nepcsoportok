@@ -14,8 +14,6 @@ function App() {
           <Route path="/" element={ <Layout/> }>
             <Route index element= { "alap" } />
             <Route path="culture" element={ "culture" }/>
-            <Route path="programok" element={ "valami" }/>
-            <Route path="kapcsolat" element={ "valami" }/>
           </Route>
         </Routes>
     </BrowserRouter>
