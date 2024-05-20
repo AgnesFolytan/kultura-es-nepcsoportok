@@ -1,4 +1,5 @@
 import React from 'react';
+import './Index.css';
 
 export function Button() {
     const handleClick = () => {
@@ -6,8 +7,8 @@ export function Button() {
     };
 
     return (
-        <button onClick={handleClick}>
-            Click Here
+        <button onClick={handleClick} id='color'>
+            Github!
         </button>
     );
 }

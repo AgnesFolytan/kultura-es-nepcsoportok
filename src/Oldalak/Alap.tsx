@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import './Alap.css';
 import { Button } from "../Components/Button/Index";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -17,6 +18,8 @@ export function Alap(){
                 <Col>
                     <p>A kultúra az emberi társadalom egyik legfontosabb jellemzője. Az emberi közösségek által kialakított szokások, hagyományok, nyelvek, vallási gyakorlatok, művészetek és életmódok összessége alkotja a kultúrát. A kultúra egy adott népcsoport vagy társadalom identitását határozza meg, és segít az egyéneknek megérteni helyüket a világban. A különböző kultúrák és népcsoportok vizsgálata révén gazdagabbá válik ismeretünk az emberi tapasztalatok sokféleségéről és mélységéről.</p>
                 </Col>
+            </Row>
+            <Row>
                 <Col>
                     <p>A hagyományok és ünnepek központi szerepet játszanak a kultúrákban, hiszen ezek révén tartják életben a közösségek a múlt emlékeit és örökségét. Például az ázsiai kultúrákban a Kínai Újév és a Hanami (cseresznyevirágzás ünnepe) különösen fontosak, míg Indiában a Diwali, a fény ünnepe az egyik legnagyobb esemény. Európában is számos hagyomány és ünnep létezik, mint például a németországi Oktoberfest, amely a világ legnagyobb sörfesztiválja, vagy a svéd Valborg, amely a tavasz érkezését ünnepli.</p>
                 </Col>
