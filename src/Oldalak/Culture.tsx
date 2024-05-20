@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Kultura, Kulturak } from '../nepcsoport';
+import { Col, Container, Row, Table } from "react-bootstrap";
 
 function Culture() {
   const [kulturak, setKulturak] = useState<Kultura[]>([]);
@@ -22,7 +23,7 @@ function Culture() {
   const kivalogatott = kulturak.filter(culture => culture.név.includes(searchTerm));
 
   return (
-    <div>
+    <Container>
       <h3>Keresés:</h3>
       <input
         type="text"
@@ -33,7 +34,7 @@ function Culture() {
         }}
       />
       <h3>Kultúráink:</h3>
-      <table className="table table-striped">
+      <Table className="Table table-striped">
         <thead>
           <tr>
             <th>Kultúra</th>
@@ -50,8 +51,8 @@ function Culture() {
             </tr>
           ))}
         </tbody>
-      </table>
-    </div>
+      </Table>
+    </Container>
   );
 }
 
