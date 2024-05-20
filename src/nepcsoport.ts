@@ -18,7 +18,7 @@ interface HagyományokÜnnepek {
     leírás: string;
   }
   
-  export interface Culture {
+  export interface Kultura {
     név: string;
     nyelvek: string[];
     földrajzi_elhelyezkedés: string;
@@ -29,7 +29,7 @@ interface HagyományokÜnnepek {
     kulturális_jellemzők: KulturálisJellemzők[];
   }
   
-  export const Cultures: Culture[] = [
+  export const Kulturak: Kultura[] = [
     {
       név: "Kína",
       nyelvek: ["Kínai (Mandarin)", "Kanton"],

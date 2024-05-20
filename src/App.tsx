@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Layout } from './Oldalak/Layout'
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
+import Culture from './Oldalak/Culture'
 
 function App() {
   
@@ -11,9 +12,9 @@ function App() {
       <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={ <Layout/> }>
+          <Route path="/" element={ <Layout /> }>
             <Route index element= { "alap" } />
-            <Route path="culture" element={ "culture" }/>
+            <Route path="kultura" element={ <Culture /> }/>
           </Route>
         </Routes>
     </BrowserRouter>
@@ -22,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

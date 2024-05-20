@@ -1,26 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import { Culture, Cultures } from '../nepcsoport';
-import './Allatok.css';
+import { Kultura, Kulturak } from '../nepcsoport';
 
-function Kultura() {
-  const [cultures, setCultures] = useState<Culture[]>([]);
+function Culture() {
+  const [kulturak, setKulturak] = useState<Kultura[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    console.log('cultures fetch effect');
+    console.log('kulturak fetch effect');
     async function load() {
-      const response = await fetch('/cultures.json');
-      const cultures = await response.json() as { cultures: Culture[] };
-      setCultures(cultures.cultures);
+      const response = await fetch('/kulturak.json');
+      const kulturak = await response.json() as { kulturak: Kultura[] };
+      setKulturak(kulturak.kulturak);
     }
     load();
   }, []);
 
   useEffect(() => {
-    console.log("Változás történt a cultures tömbben..." + cultures.length);
-  }, [cultures]);
+    console.log("Változás történt a kulturak tömbben..." + kulturak.length);
+  }, [kulturak]);
 
-  const kivalogatott = cultures.filter(culture => culture.név.includes(searchTerm));
+  const kivalogatott = kulturak.filter(culture => culture.név.includes(searchTerm));
 
   return (
     <div>
@@ -56,4 +55,4 @@ function Kultura() {
   );
 }
 
-export default Kultura;
+export default Culture;
