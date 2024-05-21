@@ -1,26 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { Kultura, Kulturak } from '../nepcsoport';
+import { Kultura, Kulturaks } from '../nepcsoport';
 import { Col, Container, Row, Table } from "react-bootstrap";
 
 function Culture() {
-  const [kulturak, setKulturak] = useState<Kultura[]>([]);
+  const [ kulturas, setKultura ] = useState([] as Kultura[])
   const [searchTerm, setSearchTerm] = useState('');
-
   useEffect(() => {
-    console.log('kulturak fetch effect');
+    console.log('Users fetch effect')
     async function load() {
-      const response = await fetch('/kulturak.json');
-      const kulturak = await response.json() as { kulturak: Kultura[] };
-      setKulturak(kulturak.kulturak);
+      const response = await fetch('/nepcsoportok.json')
+      const kulturas = await response.json() as Kulturaks;
+      setKultura(kulturas.kultura)
     }
-    load();
-  }, []);
+    load()
+  }, [])
+  useEffect( ()=>{
 
-  useEffect(() => {
-    console.log("Változás történt a kulturak tömbben..." + kulturak.length);
-  }, [kulturak]);
+  }, [kulturas] )
 
-  const kivalogatott = kulturak.filter(culture => culture.név.includes(searchTerm));
+  const kivalogatott = kulturas.filter( kultura => kultura.név.includes(searchTerm) );
 
   return (
     <Container>
