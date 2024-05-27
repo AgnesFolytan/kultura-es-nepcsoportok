@@ -5,6 +5,7 @@ import { Col, Container, Row, Table } from "react-bootstrap";
 function Culture() {
   const [ kulturas, setKultura ] = useState([] as Kultura[])
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchTermfold, setSearchTermfold] = useState('');
   useEffect(() => {
     console.log('Users fetch effect')
     async function load() {
@@ -18,16 +19,26 @@ function Culture() {
 
   }, [kulturas] )
 
-  const kivalogatott = kulturas.filter( kultura => kultura.név.includes(searchTerm) );
+  const kivalogatott = kulturas.filter( kultura => kultura.név.includes(searchTerm)&& kultura.földrajzi_elhelyezkedés.includes(searchTermfold));
+  
+  
 
   return (
     <Container>
       <h3>Keresés:</h3>
       <input
         type="text"
-        placeholder="Add meg a keresendő kultúrát!"
+        placeholder="Add a kultúrát!"
         onInput={e => {
           setSearchTerm(e.currentTarget.value);
+          console.log(e.currentTarget.value);
+        }}
+      /><br></br>
+       <input
+        type="text"
+        placeholder="Add a Földrajzi helyét!"
+        onInput={e => {
+          setSearchTermfold(e.currentTarget.value);
           console.log(e.currentTarget.value);
         }}
       />
